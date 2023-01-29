@@ -14,7 +14,7 @@ Check to make sure the pod is healthy.
 <br>
 
 ```plain
-kubectl create pod my-pod --image=nginx:alpine
+kubectl run my-pod --image=nginx:alpine --labels=app=myapp,env=dev
 
 kubectl get pods my-pod
 ```{{exec}}

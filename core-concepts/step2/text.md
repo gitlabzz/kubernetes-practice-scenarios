@@ -7,17 +7,16 @@ https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
 Create a pod called `my-pod` of image `nginx:alpine` in the default namespace
 label a pod `app=myapp` and `env=dev` using the kubectl command
 update the value of an existing label `env` to "prod" on a pod named `my-pod` using the kubectl command?
-
-Check to make sure the pod is healthy and labels are applied correctly.
+Check to make sure the pod is healthy and labels are applied correctly
 
 <br>
 <details><summary>Solution</summary>
 <br>
 
 ```plain
-kubectl create pod my-pod --image=nginx:alpine
+kubectl run my-pod --image=nginx:alpine --labels=app=myapp,env=dev
 kubectl label pods my-pod env=prod --overwrite
-kubectl get pods my-pod -o yaml
+kubectl get pod my-pod -o json | jq '.metadata.labels'
 ```{{exec}}
 
 </details>
