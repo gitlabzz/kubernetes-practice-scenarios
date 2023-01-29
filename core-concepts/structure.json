@@ -1,12 +1,12 @@
 {
-  "title": "Course TWO has a nice title",
-  "description": "This is the description of course TWO",
+  "title": "Kubernetes - Core Concepts",
+  "description": "Understand the basic concepts of Kubernetes, such as pods, services, and replication controllers",
   "items": [
     {
-      "path": "category1/scenarioA"
+      "path": "labels-selectors-and-annotations/scenarioA"
     },
     {
-      "path": "category1/scenarioB"
+      "path": "labels-selectors-and-annotations/scenarioB"
     },
     {
       "path": "scenario3"
