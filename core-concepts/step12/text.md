@@ -4,16 +4,14 @@
 
 https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
 
-update the value of an existing label `env` to "prod" on a pod named `my-pod` using the kubectl command?
-Check to make sure the pod is healthy and labels are applied correctly
+Write a command that shows all the pods that have the label `environment:production` and the label `tier:frontend`
 
 <br>
 <details><summary>Solution</summary>
 <br>
 
 ```plain
-kubectl label pods my-pod env=prod --overwrite
-kubectl get pod my-pod -o json | jq '.metadata.labels'
+kubectl get pods --selector="environment=production,tier=frontend"
 ```{{exec}}
 
 </details>

@@ -15,6 +15,81 @@
         "title": "using the kubectl command",
         "text": "step2/text.md",
         "verify": "step2/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step6/text.md",
+        "verify": "step6/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step7/text.md",
+        "verify": "step7/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step8/text.md",
+        "verify": "step8/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step9/text.md",
+        "verify": "step9/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step10/text.md",
+        "verify": "step10/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step11/text.md",
+        "verify": "step11/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step12/text.md",
+        "verify": "step12/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step13/text.md",
+        "verify": "step13/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step14/text.md",
+        "verify": "step14/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step15/text.md",
+        "verify": "step15/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step16/text.md",
+        "verify": "step16/verify.sh"
+      },
+      {
+        "title": "using the kubectl command",
+        "text": "step17/text.md",
+        "verify": "step17/verify.sh"
       }
     ],
     "finish": {

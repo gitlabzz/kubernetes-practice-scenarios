@@ -4,16 +4,14 @@
 
 https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
 
-update the value of an existing label `env` to "prod" on a pod named `my-pod` using the kubectl command?
-Check to make sure the pod is healthy and labels are applied correctly
+Using the kubectl command, remove the label `version` from all pods that have the label `env` with value `prod` in default namespace.
 
 <br>
 <details><summary>Solution</summary>
 <br>
 
 ```plain
-kubectl label pods my-pod env=prod --overwrite
-kubectl get pod my-pod -o json | jq '.metadata.labels'
+kubectl label pods --selector env=prod version-
 ```{{exec}}
 
 </details>

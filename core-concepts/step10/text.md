@@ -4,16 +4,14 @@
 
 https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
 
-update the value of an existing label `env` to "prod" on a pod named `my-pod` using the kubectl command?
-Check to make sure the pod is healthy and labels are applied correctly
+Using the kubectl command, add a new label `deployment` with value `staging` to all pods in default namespace that have the label `env` with value `prod`.
 
 <br>
 <details><summary>Solution</summary>
 <br>
 
 ```plain
-kubectl label pods my-pod env=prod --overwrite
-kubectl get pod my-pod -o json | jq '.metadata.labels'
+kubectl label pods --selector env=prod -n default deployment=staging
 ```{{exec}}
 
 </details>

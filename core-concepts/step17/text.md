@@ -4,15 +4,17 @@
 
 https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
 
-update the value of an existing label `env` to "prod" on a pod named `my-pod` using the kubectl command?
-Check to make sure the pod is healthy and labels are applied correctly
+How can you use labels and selectors to create a pod that automatically upgrades its container images?
+for example, busybox from version 1.35.0 to 1.36.0
 
 <br>
 <details><summary>Solution</summary>
 <br>
 
 ```plain
-kubectl label pods my-pod env=prod --overwrite
+kubectl run my-pod --image=busybox:1.35.0 --restart=Never --labels=app=myapp,version=1.35.0
+kubectl get pod my-pod -o json | jq '.metadata.labels'
+kubectl label pods my-pod version=1.36.0 --overwrite
 kubectl get pod my-pod -o json | jq '.metadata.labels'
 ```{{exec}}
 
