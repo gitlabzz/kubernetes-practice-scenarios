@@ -11,7 +11,7 @@ Using the kubectl command, update the label `version` to `2.0` for all pods that
 <br>
 
 ```plain
-kubectl label pods -n default --selector env=prod version=2.0
+kubectl label pods --selector=env=prod version=2.0 --overwrite
 ```{{exec}}
 
 </details>
