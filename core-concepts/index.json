@@ -1,0 +1,22 @@
+{
+  "title": "Core Concepts",
+  "description": "Understand the basic concepts of Kubernetes, such as pods, services, and replication controllers.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "using the kubectl command",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
