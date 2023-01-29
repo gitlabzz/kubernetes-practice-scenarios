@@ -1,0 +1,9 @@
+{
+  "title": "Core Concepts",
+  "description": "Understand the basic concepts of Kubernetes, such as pods, services, and replication controllers",
+  "items": [
+    {
+      "path": "labels-selectors-and-annotations"
+    }
+  ]
+}
