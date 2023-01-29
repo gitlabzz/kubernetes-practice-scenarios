@@ -85,11 +85,6 @@
         "title": "using the kubectl command",
         "text": "step16/text.md",
         "verify": "step16/verify.sh"
-      },
-      {
-        "title": "using the kubectl command",
-        "text": "step17/text.md",
-        "verify": "step17/verify.sh"
       }
     ],
     "finish": {
