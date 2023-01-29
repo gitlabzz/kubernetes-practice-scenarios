@@ -1,0 +1,9 @@
+{
+  "title": "Scenario1",
+  "description": "here is scenario one description...",
+  "items": [
+    {
+      "path": "scenario1"
+    }
+  ]
+}
