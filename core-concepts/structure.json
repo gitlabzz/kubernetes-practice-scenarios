@@ -3,10 +3,7 @@
   "description": "Understand the basic concepts of Kubernetes, such as pods, services, and replication controllers",
   "items": [
     {
-      "path": "labels-selectors-and-annotations/scenarioA"
-    },
-    {
-      "path": "labels-selectors-and-annotations/scenarioB"
+      "path": "labels-selectors-and-annotations"
     },
     {
       "path": "scenario3"
